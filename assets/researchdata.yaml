@@ -1,0 +1,136 @@
+Hardware: 
+  GOLD Extractor Machine :
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Machine segregates the gold from the soil 
+    tech : Website, ESP32, SERVO motor, Motors, Oled
+    domain : IoT
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20GOLDExtractorMachine
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Automated GOLD extractor machine designed for efficient extraction from riverbed soil.
+        - Uses multiple filters to separate gold particles from soil material.
+        - Extracted gold collected in a final container for further processing.
+        - Includes a weight measurement mechanism to quantify extracted gold.
+        - Integrates internet connectivity to fetch real-time gold prices and sends email notifications.
+        - Features a portfolio tracking system to monitor monthly extraction and earnings.
+
+        <br>
+        <br>
+
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - the system takes the soil as an input
+        - using multiple filters it seprates the gold from the soil
+        - after words the extracted gold is gather in the final container 
+        - and then using weight mechine it measures 
+        - and then searches the best price of the raw gold on internet and emails you
+        - it also tracks your portfolio like how much you have extracted gold and earned this month
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE)
+
+        <br>
+        <br>
+
+        # Problem Statement:
+        =====================<br>
+        Developing a robust GOLD extractor machine requires integrating hardware and software components to effectively filter and extract gold from riverbed soil, employing Embedded C and Python-Flask for seamless operation. The challenge lies in ensuring precise filtration and measurement accuracy while maintaining reliability in real-time price fetching and portfolio management functionalities.
+
+        <br>
+        <br>
+
+
+        # Requirements:
+        =====================<br>
+        - The soil needs to be from river or any water fall area where their is major water motions 
+        - and has posibilities to extract the gold from it
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+
+
+  Digital Clock:
+    img_path : static\project_img\skeleton.jpg
+    desc : ESP32 based Digital Clock using RTC and Oled Screen
+    tech : Real Time Embedded System
+    domain : IoT
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Rava%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+  Pet Feeder:
+    img_path : static\project_img\skeleton.jpg
+    desc : ESP32 based, able to feed pet auto and with on click 
+    tech : ThingsSpeak, Static Website, Mobile App
+    domain : IoT
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Rava%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)

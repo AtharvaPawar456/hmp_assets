@@ -1,0 +1,3754 @@
+hardware:
+  Anti-theft Flooring Sys:
+    img_path : static\project_img\hardware\Anti-theft Flooring Sys\Anti-theft Flooring Sys.png
+    
+    desc : Detect & Notify the Theft Alert to User.
+    tech : Website, ESP32-CAM, Servo, Piezo Sensor
+    domain : IoT
+    tags: majorproject iotproject
+
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Anti_theftFlooringSys
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Detects theft by stepping on a tile
+        - Camera points to the tile
+        - Captures and uploads picture to server
+        - Website displays picture with timestamp
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - when system is ON
+        - where ever any theft steps on the tile 
+        - then the camera will point to that tile 
+        - and then capture the picture of the theft 
+        - and uploads it to the server
+        - the website will show the picture of the theft with timestamp
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32-CAM, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), Peizo Sensor, other electronics
+
+        <br>
+        <br>
+
+        # Problem Statement:
+        =====================<br>
+        Theft detection is crucial for securing premises, but conventional systems often lack real-time responsiveness and accurate targeting. Many systems are unable to precisely capture evidence when a theft occurs, leading to inadequate security measures. This project addresses the need for a responsive and accurate theft detection system that not only identifies the exact location of the theft but also captures and uploads images in real time, enhancing overall security and providing reliable evidence for authorities.
+
+        <br>
+        <br>
+
+
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\general parts\pizo sensor.png
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\esp32-cam.png
+      - static\project_img\hardware\general parts\arduino nano.png
+      - static\project_img\hardware\general parts\arduino ide.png
+      - static\project_img\hardware\general parts\embbed c.png
+      - static\project_img\hardware\general parts\leds.png
+      - static\project_img\hardware\general parts\white cardboard.png
+    
+  Organ Stiching Machine:
+    img_path : static\project_img\hardware\Organ Stiching Machine\Organ_Stiching_Machine_main.jpg
+    desc : The User can Practice the Organ Stiching with our System.
+    tech : Website, ESP32, SERVO Motor, Buzzer
+    domain : IoT, Robotics
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20OrganStichingMachine
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Human operator controls the robotic controller.
+        - Robotic arm performs the organ stitching.
+        - Operator presses the "done" button after stitching.
+        - System updates the practice trial count.
+        - Provides real-time feedback and practice tracking.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - the human controlls the Robotic controller 
+        - and then controls the robotic Arm
+        - he will be able to stitch the organ  
+        - after the orgen is stitched then he can presses the done button
+        - to update its practice trial count
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), Potentiometer
+        <br>
+        <a class="hover:text-indigo-500" href="https://www.youtube.com/watch?v=8D4_rlIo-JE">url : https://www.youtube.com/watch?v=8D4_rlIo-JE</a>
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Practicing organ stitching in robotic surgery requires precise control and feedback to simulate real surgical conditions. Traditional methods may lack the accuracy and responsiveness needed for effective training. This project aims to provide a realistic practice environment by allowing users to control a robotic arm to stitch organs, enhancing their skills and confidence. The system tracks practice trials, providing valuable feedback for continuous improvement, thereby addressing the need for advanced surgical training tools.
+
+        <br>
+        <br>
+
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Organ Stiching Machine\Organ_Stiching_Machine_2.jpg
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\arduino nano.png
+      - static\project_img\hardware\general parts\potentiometer.png
+      - static\project_img\hardware\general parts\preset potentiometer.png
+      - static\project_img\hardware\general parts\arduino ide.png
+      - static\project_img\hardware\general parts\embbed c.png
+      - static\project_img\hardware\general parts\leds.png
+
+  Robotic ARM for Material Segregation:
+    img_path : static\project_img\hardware\Robotic ARM - Material Segregator\Robotic ARM.jpg
+    desc : The Smart Automatic Robotic ARM will seprate materials. Metal, non-metal and then non-metal further classified based on COLOR.
+    tech : Website, ESP32, Battery, 4x4 Keypad, Oled
+    domain : IoT, Robotics
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20RoboticARMMaterialSegregator
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Robotic arm designed for material segregation: metal, plastic, magnet.
+        - Utilizes ESP32 for wireless communication and control.
+        - Implements SERVO motors for precise arm movements.
+        - Backend server built with Python-Flask for data processing.
+        - Frontend interface developed using Tailwind CSS for a sleek user experience.
+        - Includes components like Arduino Nano, LEDs (RED + BLUE), and a buzzer for feedback.
+        
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - Robotic arm will be able to Segregate the materials like
+        - metal, non-metal and then non-metal further classified based on COLOR
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE)
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Assembling a robotic arm capable of accurately segregating materials (metal, plastic, magnet) poses challenges in hardware integration and software synchronization, demanding robust coding in Embedded C and Python-Flask, ensuring seamless operation and data management.
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\arduino nano.png
+      - static\project_img\hardware\general parts\potentiometer.png
+      - static\project_img\hardware\general parts\preset potentiometer.png
+      - static\project_img\hardware\general parts\arduino ide.png
+      - static\project_img\hardware\general parts\embbed c.png
+      - static\project_img\hardware\general parts\leds.png
+      - static\project_img\hardware\general parts\white cardboard.png
+
+  EMO Robot Clone:
+    img_path : static\project_img\hardware\EMO Robot\EMO Robot.jpg
+    desc : EMO Robot clone designed for Personalized Entertainment by displaying Facial Expressions, Emotions, etc
+    tech : Website, ESP32, battery, SERVO Motor, Oled
+    domain : IoT, Robotics
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20EMORobotClone
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - EMO Robot clone designed for personalized entertainment.
+        - Displays facial expressions and emotions using OLED display.
+        - Capable of walking and dancing with unique choreography.
+        - Controlled via a mobile app for user interaction.
+        - Includes real-time database integration for personalized settings and updates.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to entertain you
+        - can display the face and emotion
+        - can walk 
+        - can dance (in its own way)
+        - can be controlled using mobile app
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite), Mobile App
+        <br>
+        Components : ESP32-CAM, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), Oled, Touch Sensor
+        <br>
+        <a class="hover:text-indigo-500" href="https://www.youtube.com/watch?v=abqUMxj-1WI">url : https://www.youtube.com/watch?v=abqUMxj-1WI</a>
+
+        <br>
+        Note : only some part will be implemented
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Creating a distinctive EMO Robot clone for entertainment requires integrating hardware and software seamlessly, using Embedded C and Python-Flask. Challenges include ensuring synchronized movement and expression display, developing a user-friendly mobile app interface, and maintaining database connectivity for personalized user interactions and updates.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\EMO Robot\EMO Robot.jpg
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\arduino nano.png
+      - static\project_img\hardware\general parts\potentiometer.png
+      - static\project_img\hardware\general parts\preset potentiometer.png
+      - static\project_img\hardware\general parts\arduino ide.png
+      - static\project_img\hardware\general parts\battery.jpeg
+      - static\project_img\hardware\general parts\oled.jpeg
+
+  SALTO - The Jumping Robot:
+    img_path : static\project_img\hardware\SALTO - The Jumping Robot\SALTO - The Jumping Robot.png
+    desc : SALTO - The Jumbing Robot is used for learning purpose. 
+    tech : Website, ESP32, Servo Motor
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SALTOTheJumpingRobot
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - SALTO, a jumping robot optimized for high jumps.
+        - Primarily designed for rapid locomotion.
+        - Focuses on advancing research and development in robotics.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to jump high
+        - main use case is to run fast
+        - its an research and development project
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), many more ... 
+        <br>
+        url : https://www.youtube.com/watch?v=xvIk39rkkiU
+        <br>
+        Note : only some part will be implemented
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Developing SALTO, a high-jumping robot, involves overcoming challenges in hardware integration and software synchronization, utilizing Embedded C and Python-Flask. Key challenges include optimizing SERVO motors for high-performance jumps, ensuring precise control and synchronization of movements, and integrating a responsive user interface using Tailwind CSS for enhanced user interaction and real-time data management through SQLite database integration.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\arduino nano.png
+      - static\project_img\hardware\general parts\arduino ide.png
+      - static\project_img\hardware\general parts\battery.jpeg
+
+  MIT Transform Smart Desk:
+    img_path : static\project_img\hardware\MIT Transform Smart Desk\MIT Transform Smart Desk.jpg
+    desc : It makes interactive visualizations...
+    tech : Website, ESP32, Servo, Buzzer
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20MIT_TransformSmartDesk
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - MIT Transform Smart Desk with gamified features.
+        - Displays interactive bar graphs for visualizing profit metrics.
+        - Shows emotional expressions using LED-based emojis.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to give gamemifed feel
+        - able to show the bar graph(profit graph)
+        - able to show the emogi (emotional) expression 
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), many more ... 
+        <br>
+        url : https://www.youtube.com/watch?v=lCARHatJQJA&t=189s
+        <br>
+        Note : only some part will be implemented
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Developing the MIT Transform Smart Desk involves integrating hardware components like ESP32, SERVO motors, and LEDs with software technologies such as Embedded C and Python-Flask. Challenges include synchronizing data visualization (e.g., profit graphs) and emotion display (via emojis) on a frontend built with Tailwind CSS, ensuring real-time updates and user engagement through a SQLite database backend.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\MIT Transform Smart Desk\MIT Transform Smart Desk.jpg
+      - static\project_img\hardware\MIT Transform Smart Desk\transform.jpg
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\arduino ide.png
+
+  House Inventory Management Sys:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Able to notify , suggest house hold products.
+    tech : Website, ESP32, Oled, Buzzer
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20HouseInventoryManagementSys
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - IoT system for house inventory management.
+        - Tracks incoming items and products in real-time.
+        - Analyzes consumption rates and predicts future requirements.
+        - Generates recommendations for purchasing items, creating a detailed shopping cart list.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - can track the incoming items / products
+        - can analyse the consumption rate and predicting the Requirements
+        - can recommend to the buying itmes/product (will make a full cart item list with needed details)
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), many more ... 
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Implementing a robust house inventory management IoT system involves integrating hardware components like ESP32, SERVO motors, and LEDs with software technologies such as Embedded C and Python-Flask. Challenges include real-time tracking of inventory, accurate consumption rate analysis, and seamless recommendation generation based on predictive algorithms, all managed through a user-friendly frontend built with Tailwind CSS and supported by a SQLite database backend.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+  Pani Puri Maker Robot:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Makes the pani puri, handles the online payment
+    tech : Website, ESP32, battery, 4x4keypad, Oled
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20PaniPuriMakerRobot
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - SMART Pani Puri Maker Robot designed for automated pani puri preparation.
+        - Takes orders and customizes spice levels (thikha, medium-thikha, metha, etc.).
+        - Fills and serves pani puri using automated mechanisms.
+        - Supports online payment transactions only.
+
+        <br>
+        <br>
+
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - can make order
+        - can define (thikha, medium-thikha, metha, etc)
+        - can fill and serve the pani puri
+        - only online payment
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), pipe, pump, solonoid valve, etc
+        <br>
+        <br>
+
+        # Problem Statement:
+        =====================<br>
+        Developing the SMART Pani Puri Maker Robot involves integrating hardware components such as ESP32, SERVO motors, pumps, solenoid valves, and sensors with software technologies like Embedded C and Python-Flask. Challenges include ensuring precise ingredient dispensing, seamless order processing, and secure online payment handling, all presented through a user-friendly frontend built with Tailwind CSS and managed by a SQLite database backend.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+  Smart Pill Reminder:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Register the Medicine timing and get Notified...
+    tech : Website, ESP32, Oled, buzzer
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartPillReminder
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Smart Pill Reminder for personalized medication management.
+        - Allows users to input medicine details and schedule timings.
+        - Provides notifications using a buzzer for timely medication reminders.
+        - Dispenses only the required medicine as per the scheduled dosage.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to enter the medicine details and timing
+        - able to get notification of the medicine with buzzer and get only required medicine only
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE)
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Developing the Smart Pill Reminder requires integrating ESP32, SERVO motors, Arduino IDE, and other components with Embedded C and Python-Flask. Challenges include accurate scheduling and dispensing of medications, ensuring reliable notification systems, and maintaining a user-friendly interface using Tailwind CSS and SQLite database backend for seamless management of medication schedules and reminders.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+  Smart Vending Machine:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Register the vendors, buy the product by doing online payment.
+    tech : Website, ESP32, Oled, buzzer, Motor
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartVendingMachine
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Smart Vending Machine designed for versatile product handling and sales.
+        - Segregates products from any vendor into designated segments for selling.
+        - Allows clients to purchase products using online payment methods.
+        - Facilitates automatic payment transfers to vendors at the end of each month.
+        - Tracks sales data to analyze consumption patterns and recommends high-demand products.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - can put products buy any vendor into their segments for selling
+        - clients can purchase the product with online payment
+        - at the month end the vendor gets their money 
+        - can track the portfolio and make analysis on the sales & suggest the product with high consumption
+        - to purchase enter the number of the product and do payment
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), gear motor
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Creating a Smart Vending Machine involves integrating ESP32, SERVO motors, gear motors, and other components with Embedded C and Python-Flask. Challenges include precise product handling and segmentation, ensuring secure online payments, and developing analytical tools for sales tracking and product recommendations. The frontend using Tailwind CSS and SQLite database backend must support intuitive user interfaces and seamless transaction management for optimal vending machine operations and vendor relations.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+  IoT Interactive Aquarium:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Control Lights and Fish Feeding and automate it... 
+    tech : Website, ESP32, battery, motor, etc
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20IoTInteractiveAquarium
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - IoT Interactive Aquarium for advanced aquatic management.
+        - Controls aquarium lights and enables manual/auto feeding.
+        - Displays fish information via mobile app by scanning QR codes.
+        - Creates an aquarium portfolio to track fish age and suggests care requirements.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to control lights and manula/auto feeding
+        - display the fish information on mobile app after scanning QR controlled
+        - can make portfolio of the Aquarium and track their age 
+        - and suggest their care requirements 
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32-CAM, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE)
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Developing the IoT Interactive Aquarium involves integrating ESP32-CAM, SERVO motors, Arduino IDE, and other components with Embedded C and Python-Flask. Challenges include ensuring seamless control of lighting and feeding mechanisms, developing a QR code scanning system for fish information display, and implementing a robust portfolio management feature to monitor fish age and provide timely care recommendations. The frontend using Tailwind CSS and SQLite database backend must support user-friendly interfaces for effective aquarium management and fish care.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+  Smart Locker System:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Multi Factor Auth to open the locker...
+    tech : Website, ESP32, electronic lock
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartLockerSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - IoT Smart Locker System with multi-factor authentication.
+        - Registers clients securely and unlocks lockers using 4-factor authentication.
+        - Fingerprint recognition
+        - RFID card scanning
+        - Google Email OTP (20 seconds validity)
+        - Mobile App OTP (20 seconds validity)
+        - Hardware remote for manual control.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to register the client
+        - unlock the locker with 4 Factor Authentication 
+        - (finger print, RFID CARD, GEmail OTP-[20 sec], Mobile App OTP-[20 sec], Hardware Remote)
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), electronic lock
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Developing the IoT Smart Locker System requires integrating ESP32, SERVO motors, electronic locks, and other components with Embedded C and Python-Flask. Challenges include ensuring robust security through multi-factor authentication methods, seamless client registration, and secure locker access management. The frontend using Tailwind CSS and SQLite database backend must provide a user-friendly interface for client registration, authentication, and locker management, ensuring reliable and secure operation of the smart locker system.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+
+  # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  EBike Speed Controller System:
+    img_path : static\project_img\hardware\EBike Speed Controller System\img2.png
+    desc : Low-cost ESP32 eBike controller with speed display and efficient motor speed control.
+    tech : ESP32, Motor, Oled, Arduino
+    domain : Embedded Sys
+    tags: majorproject iotproject
+
+    markdowndetails : |
+
+        # Project Description:
+        ==============================<br>
+        The ESP32-based eBike controller system is designed to offer a low-cost, efficient, and user-friendly solution for electric bike enthusiasts. This innovative system utilizes the powerful and versatile ESP32 microcontroller to manage and control the speed of the eBike, providing a seamless and enjoyable riding experience. The key feature of this system is its ability to display real-time speed information on a screen, ensuring that riders can monitor their speed effortlessly and stay informed about their riding performance.
+
+        The controller is engineered to offer precise and responsive motor speed control, allowing riders to adjust their speed smoothly and efficiently. This enhances the overall safety and comfort of the ride, making it suitable for various terrains and riding conditions. The system is designed with cost-effectiveness in mind, making it an affordable option for eBike manufacturers and DIY enthusiasts alike.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        ====================<br>
+        Current eBike controllers are expensive, lack efficient motor speed control, and do not provide real-time speed display, necessitating a low-cost, efficient, and user-friendly solution.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==================<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:
+        =======================<br>
+        - --> Project Hardware
+        - --> Project Report
+    links: 
+      - static\project_img\hardware\EBike Speed Controller System\img1.png
+      - static\project_img\hardware\EBike Speed Controller System\img2.png
+      - static\project_img\hardware\EBike Speed Controller System\img3.png
+      - static\project_img\hardware\general parts\motor12v.png
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20EBikeSpeedControllerSystem
+  
+  Weather Station:
+    img_path : static\project_img\hardware\Weather Station\img-1.jpg
+    desc : ESP32 based Weather Station using DHT11, OLED, real-time weather data, low-cost, web visibility.
+    tech : ESP32, Motor, Oled, Arduino, ThingsSpeak, Static Website
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20WeatherStation
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br>
+        The ESP32-based Weather Station is a comprehensive solution for monitoring real-time weather conditions with accuracy and efficiency. Utilizing the DHT11 sensor for temperature and humidity measurement and an OLED display for data visualization, this system offers a user-friendly interface for accessing essential weather information. Key parameters such as temperature, humidity, wind speed, and wind direction are continuously monitored, providing users with up-to-date data for informed decision-making.
+        <br><br>
+        Designed with cost-effectiveness and ease of installation in mind, the Weather Station offers a low-cost solution suitable for various applications. Its compact design and simple setup make it ideal for both personal and professional use, whether for home weather monitoring, agricultural applications, or educational purposes.
+        <br><br>
+        One of the standout features of this Weather Station is its integration with a custom website, where the collected weather data is displayed in real-time. This web visibility enhances accessibility, allowing users to remotely access weather information from anywhere with an internet connection. Whether checking weather conditions before outdoor activities, optimizing farming practices, or conducting research, the ESP32 Weather Station provides a reliable and efficient solution.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Current weather monitoring systems lack affordability, efficiency, and web integration, hindering accessibility to real-time weather data. A low-cost, efficient, and web-visible solution is needed for comprehensive weather monitoring.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation        
+    links: 
+      - static\project_img\hardware\Weather Station\img-1.jpg
+      - static\project_img\hardware\general parts\oled.jpeg
+      - static\project_img\hardware\general parts\dht11.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+  
+  Smart Home Controlling System:
+    img_path : static\project_img\hardware\Smart Home Controlling System\img1.png    
+    desc : Mobile app, website, monitors temperature, humidity, controls appliances.
+    tech : ESP32, Arduino, ThingsSpeak, Static Website, Mobile App
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartHomeControllingSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br>
+        The Smart Home Controlling System is a versatile solution for remotely managing household appliances and monitoring environmental conditions. With the capability to control up to four appliances via a mobile app and website interface, users can easily adjust settings and automate routines from anywhere with an internet connection. This system provides convenience and flexibility, allowing users to turn appliances on or off, set timers, and create personalized schedules to optimize energy usage and enhance home automation.
+        <br>
+        In addition to appliance control, the system also offers real-time monitoring of room temperature and humidity levels. By providing insights into indoor environmental conditions, users can ensure comfort and well-being, as well as make informed decisions regarding heating, cooling, and ventilation systems.
+        <br>
+        The Smart Home Controlling System features a custom-designed website and mobile app, offering intuitive interfaces for seamless user experience. Utilizing ThingSpeak as an online database ensures secure storage and accessibility of data, enabling users to retrieve historical records and analyze trends over time.
+        <br>
+        With its comprehensive functionality and user-friendly interfaces, this system transforms any home into a smart, connected environment, enhancing convenience, comfort, and energy efficiency.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Existing home automation systems lack comprehensive control over appliances and environmental monitoring, hindering convenience and energy efficiency. A solution with mobile app and website control, plus temperature/humidity monitoring, is needed.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+
+    links: 
+      - static\project_img\hardware\Smart Home Controlling System\img1.png
+      - static\project_img\hardware\general parts\oled.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\dht11.jpeg
+
+  Radar System:
+    img_path : static\project_img\hardware\Radar System\img1.jpeg
+    desc : Detects objects, aims servo gun, logs and predicts detection coordinates.
+    tech : ThingsSpeak, Static Website, Mobile App, Servo soft gun
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20RadarSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br>
+        The Radar System is an advanced object detection and tracking solution designed to enhance security and surveillance capabilities. Utilizing sophisticated radar technology, this system accurately detects objects within its sensing area and determines their precise locations. Once an object is detected, the system dynamically points a servo gun towards the target, ensuring immediate response to potential threats.
+        <br>
+        A key feature of this Radar System is its ability to log data with time stamps, creating a comprehensive record of all detected objects and their movements. This data is then uploaded to a secure server, where it can be accessed and analyzed in real-time. By examining the object detection patterns and coordinates, the system is capable of predicting future object locations, enabling preemptive actions and improved situational awareness.
+        <br>
+        The system's robust design and accurate detection capabilities make it suitable for a wide range of applications, including military defense, perimeter security, and automated surveillance. Its ability to provide real-time data logging and predictive analytics ensures a proactive approach to security, enhancing both efficiency and effectiveness. With this Radar System, users can achieve a higher level of precision and reliability in object detection and response.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Current surveillance systems lack precise object detection, tracking, and predictive capabilities, limiting response efficiency. An advanced radar system with servo aiming and predictive analytics is required for enhanced security and surveillance.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+
+    links: 
+      - static\project_img\hardware\Radar System\img1.jpeg
+      - static\project_img\hardware\general parts\oled.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\dht11.jpeg
+
+  Smart Irrigation System:
+    img_path : static\project_img\hardware\Smart Irrigation System\img1.png
+    desc : Detects soil moisture, controls relay, uploads data, predicts dryness.
+    tech : ThingsSpeak, Static Website, Mobile App, Relay, ESP32
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartIrrigationSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br>
+        The Smart Irrigation System is an innovative solution designed to optimize water usage and enhance agricultural efficiency. By accurately detecting soil moisture levels, this system can automatically turn the irrigation pump on or off, ensuring that plants receive the right amount of water precisely when needed. This automated control helps in conserving water, reducing manual labor, and promoting healthier plant growth.
+        <br>
+        Key features of the system include real-time data logging and server uploads. Soil moisture levels and the pump's ON/OFF status are continuously monitored and recorded, providing valuable insights into irrigation patterns and soil conditions. This data is uploaded to a secure server, where users can access it remotely for analysis and decision-making.
+        <br>
+        The Smart Irrigation System also incorporates predictive analytics to forecast the wet-to-dry interval time of the soil. By analyzing historical data, the system can predict how quickly the soil will dry out, allowing for more proactive irrigation scheduling. This ensures that plants never suffer from water stress, maintaining optimal soil moisture levels at all times.
+        <br>
+        Designed for ease of use and efficiency, the Smart Irrigation System is ideal for both small-scale gardens and large agricultural fields. It represents a significant step forward in sustainable farming practices, combining technology with agriculture for better resource management.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Traditional irrigation systems lack automated moisture detection, efficient water management, and predictive capabilities, leading to water wastage and suboptimal plant care. A smart, predictive, and automated solution is needed.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Irrigation System\img1.png
+      - static\project_img\hardware\general parts\soil moisture.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\dht11.jpeg
+
+  Smart Parking System:
+    img_path : static\project_img\hardware\Smart Parking System\iot-based-smart-parking-system-project.png
+    desc : Detects slots, displays availability, automates gate, enables booking/payment.
+    tech : ESP32, Arduino, ThingsSpeak, Static Website, Mobile App, Servo
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartParkingSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Detects 4 parking slots.
+        - Displays available slots.
+        - Opens gate bar if an incoming car is detected and slots are available.
+        - Displays slots on mobile app and website.
+        - Enables slot booking with integrated payment.
+        - Supports card payment. (TEST Mode)
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Traditional parking systems lack real-time slot detection, automated gate control, and integrated booking/payment, leading to inefficiency and user inconvenience. A smart, automated solution with booking and payment features is needed.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM : Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Parking System\iot-based-smart-parking-system-project.png
+      - static\project_img\hardware\general parts\oled.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\ir module.jpeg
+
+  Smart Attendence System:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Registers students/teachers, marks attendance, tracks timetable, holidays. 
+    tech : Website, ESP32, battery, 4x4keypad, Oled
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartAttendenceSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Registers students.
+        - Registers teachers.
+        - Marks attendance.
+        - Registers the timetable.
+        - Tracks student attendance rates.
+        - Tracks holidays.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Current attendance systems lack efficiency in student/teacher registration, real-time tracking, and comprehensive reporting, leading to administrative challenges. A smart, automated solution is needed for streamlined attendance and timetable management.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+  Smart Lock:
+    img_path : static\project_img\skeleton.jpg
+    desc : ESP32 based, keypad lock 
+    tech : Real Time Embedded System
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartAttendenceSystem
+
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+  Transmission Line Fault Detection:
+    img_path : static\project_img\hardware\Transmission Line Fault Detection\img1.png
+    desc : Detects faults, alerts server, auto cut-off, monitors parameters.
+    tech : AC Bulb, microcontroller, alert notification, auto power cutoff
+    domain : IoT
+    tags: majorproject iotproject
+    
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20TransmissionLineFaultDetection
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        The Transmission Line Fault Detection system is an advanced solution designed to enhance the reliability and safety of power transmission networks. This system can accurately detect power faults in real-time, ensuring quick identification and response to potential issues. Upon detecting a fault, the system immediately sends alerts to the server, enabling rapid intervention and minimizing downtime.
+        <br>
+        Key features include automatic cutoff to prevent damage to equipment and ensure safety. The system also monitors voltage and current levels continuously, providing valuable data for maintaining optimal performance. Fault data is logged for detailed analysis, helping in understanding fault patterns and improving future fault management strategies.
+        <br>
+        Additionally, the system offers real-time fault location, allowing for precise identification of the fault's position within the transmission line. This feature supports quick recovery and restoration of services, minimizing the impact on consumers. Remote management and control capabilities enable operators to oversee and manage the system from any location, integrating seamlessly with smart grid systems to enhance overall grid efficiency.
+        <br>
+        Designed with both reliability and safety in mind, the Transmission Line Fault Detection system represents a significant advancement in power network management, providing robust solutions for maintaining uninterrupted and efficient power supply.
+
+        <br>
+        <br>
+
+        # Project Features:
+        ======================<br><br>
+
+        - --> Detects power faults.
+        - --> Sends alerts to the server.
+        - --> Performs automatic cutoff.
+        - --> Monitors voltage and current levels.
+        - --> Logs fault data for analysis.
+        - --> Provides real-time fault location.
+        - --> Supports remote management and control.
+        - --> Ensures quick recovery and restoration.
+        - --> Integrates with smart grid systems.
+        - --> Enhances system reliability and safety.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Traditional power transmission systems struggle with timely fault detection, alerts, and automated responses, leading to prolonged outages and safety risks. An advanced, automated solution is needed for real-time fault management.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Transmission Line Fault Detection\img1.png
+      - static\project_img\hardware\general parts\ac bulb.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\relay.jpeg
+
+  Finger Print Door Lock System:
+    img_path : static\project_img\skeleton.jpg
+    desc : ESP32 based, real time lock 
+    tech : ThingsSpeak, Static Website, Mobile App
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Rava%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+    links: 
+      - static\project_img\hardware\Transmission Line Fault Detection\img1.png
+      - static\project_img\hardware\general parts\ac bulb.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\relay.jpeg
+
+
+  Smart Dustbin:
+    img_path : static\project_img\skeleton.jpg
+    desc : ESP32 based, Smart Dustbin 
+    tech : ThingsSpeak, Static Website, Mobile App
+    domain : IoT
+    tags: majorproject iotproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Rava%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+    links: 
+      - static\project_img\hardware\Transmission Line Fault Detection\img1.png
+      - static\project_img\hardware\general parts\ac bulb.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\relay.jpeg
+
+
+  
+  # AgroSense:
+    # img_path : static\project_img\skeleton.jpg
+    # desc : Its an IoT based plant root 3 level soil moisture detector.   
+    # tech : Django, SQL Database
+    # domain : IoT, Web App
+    # tags: majorproject iotproject
+    # whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20_Rava%20Laddu%20500grm/6pices/Rs.500/-
+    # markdowndetails: https://wa.me/8169239027?text=I'm%20interested%20in%20_Rava%20Laddu%20500grm/6pices/Rs.500/-
+
+  
+
+
+software: 
+  Automated Malware Detection System:
+    img_path: static\project_img\software\Automated Malware Detection System\Automated Malware Detection System.jpg
+    desc: Machine Learning-based, Automated Malware Detection System
+    tech: Machine Learning, Static Website, Mobile App
+    domain: Cyber Security
+    tags: majorproject cyberproject aimlproject desktopproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Automated%20Malware%20Detection%20System
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Automated Malware Detection System is an advanced cybersecurity solution designed to detect and classify various types of malware using machine learning techniques. This system can analyze software behavior and code patterns in real-time, enabling quick identification of potential threats before they infiltrate a network or system. Upon detecting a malware, the system immediately alerts the user and isolates the threat, ensuring minimal damage and preventing further spread.
+
+      <br>
+      Key features include the ability to learn and adapt to new malware signatures, continuously updating its detection algorithms to stay ahead of emerging threats. The system also provides detailed analysis reports, helping cybersecurity teams understand the nature of detected malware and improving future defense strategies.
+      <br>
+      Additionally, the system supports real-time threat classification, categorizing malware based on its type and behavior, which aids in implementing targeted response measures. Remote management capabilities allow for centralized control and monitoring, integrating seamlessly with existing cybersecurity infrastructure to enhance overall network security.
+      <br>
+      Designed with a focus on proactive threat management, the Automated Malware Detection System represents a significant advancement in cybersecurity, providing robust solutions for maintaining secure and resilient digital environments.
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Detects and classifies malware in real-time.
+      - --> Alerts users and isolates detected threats.
+      - --> Learns and adapts to new malware signatures.
+      - --> Provides detailed analysis reports.
+      - --> Supports real-time threat classification.
+      - --> Offers remote management and centralized control.
+      - --> Integrates with existing cybersecurity infrastructure.
+      - --> Enhances overall network security and resilience.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Traditional antivirus software struggles with the detection of new and evolving malware, resulting in potential breaches and data loss. An intelligent, machine learning-based solution is needed for real-time malware detection and classification to strengthen cybersecurity defenses.
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Prevent malware infiltration by detecting and classifying malware types using machine learning algorithms to ensure secure network operations and protect sensitive data.
+
+
+    links: 
+      - static\project_img\software\Automated Malware Detection System\malware.jpg
+      - static\project_img\software\Automated Malware Detection System\malware1.jpg
+      - static\project_img\software\Automated Malware Detection System\malware2.jpg
+
+  
+  
+  Intrusion Detection System:
+    img_path: static\project_img\software\Intrusion Detection System\Intrusion Detection System2.png
+    desc: Deep Learning-based, Intrusion Detection System
+    tech: Deep Learning, Static Website, Mobile App
+    domain: Cyber Security
+    tags: majorproject cyberproject aimlproject desktopproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Intrusion%20Detection%20System%20Using%20Deep%20Learning
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Intrusion Detection System Using Deep Learning is a cutting-edge cybersecurity solution designed to identify and prevent unauthorized access and threats within a network. By leveraging deep learning algorithms, this system can effectively analyze network traffic patterns in real-time to detect abnormal behaviors indicative of potential intrusions. Upon identifying an intrusion, the system sends immediate alerts to the network administrator, enabling swift responses to mitigate risks.
+
+      <br>
+      Key features include high accuracy in detecting a wide range of intrusions, adaptability to evolving threats, and the capability to analyze complex network traffic data. The system continuously learns from new data, improving its detection capabilities and ensuring robust protection against both known and unknown threats.
+      <br>
+      Additionally, the system provides detailed intrusion reports, including the nature and source of detected threats, aiding in further investigation and enhancing overall network security strategies. With remote monitoring and management features, network administrators can oversee and control the system from any location, seamlessly integrating it into existing security infrastructures.
+      <br>
+      Designed to provide proactive and efficient network security, the Intrusion Detection System Using Deep Learning represents a significant advancement in safeguarding digital assets against cyber threats.
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Detects unauthorized network access in real-time.
+      - --> Analyzes network traffic patterns using deep learning.
+      - --> Sends immediate alerts upon detecting intrusions.
+      - --> Learns and adapts to new and evolving threats.
+      - --> Provides detailed intrusion reports for further analysis.
+      - --> Supports remote monitoring and management.
+      - --> Enhances overall network security and resilience.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Traditional network security measures often fail to detect sophisticated and evolving cyber threats, resulting in unauthorized access and data breaches. A deep learning-based intrusion detection system is needed to identify and prevent such intrusions in real-time, securing network operations.
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Secure network monitoring by detecting and preventing unauthorized access and threats using deep learning algorithms to ensure a safe and resilient network environment.
+
+
+    links: 
+      - static\project_img\software\Intrusion Detection System\Intrusion Detection System.jpg
+      - static\project_img\software\Intrusion Detection System\Intrusion Detection System2.png
+      - static\project_img\software\Intrusion Detection System\security.jpg
+
+  
+  
+  Phishing Attack Detection Tool:
+    img_path: static\project_img\software\Phishing Attack Detection Tool\Phishing Attack Detection Tool.jpg
+    desc: Browser Extension for Phishing Attack Detection
+    tech: Machine Learning, Web Development, Browser Extension
+    domain: Cyber Security
+    tags: miniproject cyberproject aimlproject webappproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Phishing%20Attack%20Detection%20Tool
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Phishing Attack Detection Tool is an innovative cybersecurity solution designed to protect users from malicious phishing websites. Implemented as a browser extension, this tool uses advanced algorithms and machine learning techniques to analyze website URLs and content in real-time, detecting potential phishing threats. When a phishing website is identified, the tool blocks access to the site and alerts the user, preventing them from falling victim to phishing attacks.
+
+      <br>
+      Key features include real-time analysis of web pages, user-friendly alerts, and adaptive learning that allows the tool to improve its detection capabilities over time. The tool also maintains a database of known phishing sites and uses it to cross-reference and detect similar threats. 
+      <br>
+      Additionally, the tool provides detailed reports on detected phishing attempts, helping users understand the nature of the threat and encouraging safer browsing habits. It integrates seamlessly with popular web browsers, ensuring broad compatibility and ease of use.
+      <br>
+      Designed to enhance online security, the Phishing Attack Detection Tool offers a robust solution to protect users from increasingly sophisticated phishing schemes, thereby promoting safer browsing environments.
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Detects and blocks phishing websites in real-time.
+      - --> Analyzes website URLs and content using machine learning.
+      - --> Provides user-friendly alerts upon detecting threats.
+      - --> Continuously updates and learns from new phishing data.
+      - --> Maintains a database of known phishing sites.
+      - --> Provides detailed reports on phishing attempts.
+      - --> Integrates seamlessly with popular web browsers.
+      - --> Enhances online security and user protection.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Users are frequently exposed to phishing attacks that trick them into providing sensitive information on fraudulent websites. A browser extension-based tool is needed to detect and block phishing websites in real-time, safeguarding users from cyber threats.
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software (Browser Extension)
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Protect users from phishing by detecting and blocking malicious websites using a browser extension that leverages machine learning for real-time analysis and threat prevention.
+
+
+
+    links: 
+      - static\project_img\software\Phishing Attack Detection Tool\Phishing Attack Detection Tool.jpg
+      - static\project_img\software\Phishing Attack Detection Tool\Phishing Attack Detection Tool2.jpg
+      - static\project_img\software\Phishing Attack Detection Tool\Phishing Attack Detection Tool3.png
+
+  
+  
+  Secure File Storage System Using Cryptography:
+    img_path: static\project_img\software\Secure File Storage System Using Cryptography\Secure File Storage System Using Cryptography.jpg
+    desc: Encryption-Based, Secure File Storage System
+    tech: Cryptography, Web Development, File Management
+    domain: Cyber Security
+    tags: majorproject cyberproject aimlproject webappproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Secure%20File%20Storage%20System%20Using%20Cryptography
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Secure File Storage System Using Cryptography is a robust solution designed to safeguard sensitive data by employing advanced encryption techniques. This system encrypts files before storing them, ensuring that unauthorized users cannot access the contents without the correct decryption keys. It offers a secure way to store and manage sensitive information, making it ideal for both personal and organizational use.
+
+      <br>
+      Key features include support for various encryption algorithms, user-friendly interfaces for file encryption and decryption, and secure key management systems to prevent unauthorized access. The system also allows for the secure sharing of encrypted files, ensuring that only authorized individuals can view or modify the data.
+      <br>
+      Additionally, the system provides detailed logs of file access and encryption/decryption activities, helping users monitor and manage their data security.
+      <br>
+      Designed with security and ease of use in mind, the Secure File Storage System Using Cryptography ensures that sensitive data remains protected from unauthorized access, providing peace of mind to users.
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Encrypts files before storage to protect sensitive data.
+      - --> Supports multiple encryption algorithms for flexibility.
+      - --> Provides secure key management to prevent unauthorized access.
+      - --> Allows secure sharing of encrypted files.
+      - --> Logs all file access and encryption/decryption activities.
+      - --> Offers a user-friendly interface for encryption and decryption.
+      - --> Enhances data security without compromising usability.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Sensitive data is at risk of unauthorized access and theft when stored in unsecured systems. A cryptography-based secure file storage system is needed to encrypt files, ensuring that only authorized users can access the data and safeguard sensitive information.
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Safeguard sensitive data by creating a secure file storage system that uses cryptographic techniques to encrypt files, ensuring that only authorized users have access to the data and enhancing overall data protection.
+
+
+    links: 
+      - static\project_img\software\Secure File Storage System Using Cryptography\Secure File Storage System Using Cryptography.jpg
+      - static\project_img\software\Secure File Storage System Using Cryptography\Secure File Storage System Using Cryptography2.jpg
+      - static\project_img\software\Secure File Storage System Using Cryptography\Secure File Storage System Using Cryptography3.jpg
+      - static\project_img\software\Secure File Storage System Using Cryptography\Secure File Storage System Using Cryptography4.jpg
+  
+  Facial Recognition-Based Authentication System :
+    img_path: static\project_img\software\Facial Recognition-Based Authentication System\Facial Recognition-Based Authentication System.jpg
+    desc: Secure Access Control Using Facial Recognition
+    tech: Machine Learning, Computer Vision, Security Systems
+    domain: Cyber Security
+    tags: majorproject cyberproject aimlproject desktopproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Facial%20Recognition-Based%20Authentication%20System
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Facial Recognition-Based Authentication System is an advanced security solution designed to enhance access control through biometric verification. Utilizing machine learning and computer vision techniques, this system captures and analyzes facial features to authenticate users, providing a secure and efficient way to manage access to sensitive areas or systems.
+
+      <br>
+      Key features include real-time facial recognition, high accuracy in distinguishing between authorized and unauthorized individuals. The system provides seamless access control, ensuring that only authorized personnel can gain entry.
+      <br>
+      <br>
+      Additionally, the system logs all access attempts, allowing administrators to monitor and review access patterns and detect potential security breaches. It supports multi-factor authentication by combining facial recognition with other security measures, such as passwords, to further enhance security.
+      <br>
+      <br>
+      Designed for high security and ease of use, the Facial Recognition-Based Authentication System offers a robust solution for organizations seeking to implement cutting-edge access control technologies.
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Performs real-time facial recognition for authentication.
+      - --> Provides high accuracy in identifying authorized users.
+      - --> Logs all access attempts for monitoring and review.
+      - --> Supports multi-factor authentication for enhanced security.
+      - --> Offers a user-friendly interface for system management.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Traditional access control methods, such as passwords or keycards, are prone to security breaches and unauthorized access. A facial recognition-based authentication system is needed to provide a more secure and reliable means of access control by verifying users based on their unique facial features.
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Enhance security in access control systems by developing a facial recognition-based authentication system that accurately verifies users based on their facial features, ensuring that only authorized individuals can gain entry.
+
+    links: 
+      - static\project_img\software\Facial Recognition-Based Authentication System\Facial Recognition-Based Authentication System.jpg
+      - static\project_img\software\Facial Recognition-Based Authentication System\Facial Recognition-Based Authentication System2.jpg
+      - static\project_img\software\Facial Recognition-Based Authentication System\Facial Recognition-Based Authentication System3.jpg
+  
+
+  
+  Password Manager with Two-Factor Authentication:
+    img_path: static\project_img\software\Password Manager with Two-Factor Authentication\Password Manager with Two-Factor Authentication.jpg
+    desc: Secure Password Management with Two-Factor Authentication
+    tech: Encryption, Web Development, Security Systems
+    domain: Cyber Security
+    tags: majorproject cyberproject desktopproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Password%20Manager%20with%20Two-Factor%20Authentication
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Password Manager with Two-Factor Authentication is a secure solution designed to help users manage their passwords while adding an extra layer of security through two-factor authentication (2FA). This system securely stores and encrypts user passwords, allowing them to access their credentials conveniently and safely. With 2FA integrated, users are required to verify their identity through an additional authentication step, significantly reducing the risk of unauthorized access.
+
+      <br>
+      Key features include support for generating strong, unique passwords, encrypted storage of credentials, and seamless integration with two-factor authentication methods such as authentication app verification. The system provides a user-friendly interface for managing passwords, auto-filling login forms, and securely sharing credentials when necessary.
+      <br>
+      Additionally, the password manager logs all access attempts and sends alerts for any suspicious activities, providing users with insights and control over their account security. It is compatible with various platforms, ensuring that users can access their passwords from any device securely.
+      <br>
+      Designed with security and convenience in mind, the Password Manager with Two-Factor Authentication offers a comprehensive solution for enhancing password management and protection.
+
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Stores and encrypts passwords securely.
+      - --> Supports generating strong, unique passwords.
+      - --> Integrates with two-factor authentication methods.
+      - --> Offers a user-friendly interface for password management.
+      - --> Auto-fills login forms securely.
+      - --> Logs access attempts and sends alerts for suspicious activities.
+      - --> Allows secure sharing of credentials.
+      - --> Ensures compatibility across various platforms.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Managing passwords securely is a challenge for users, especially with the increasing risk of cyber threats. A password manager integrated with two-factor authentication is needed to provide a secure, convenient way to store and manage passwords, reducing the risk of unauthorized access and improving overall security.
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Improve password management security by developing a password manager with integrated two-factor authentication, ensuring that user credentials are stored securely and access is tightly controlled.
+
+    links: 
+      - static\project_img\software\Password Manager with Two-Factor Authentication\Password Manager with Two-Factor Authentication.jpg
+      - static\project_img\software\Password Manager with Two-Factor Authentication\Password Manager with Two-Factor Authentication2.webp
+      - static\project_img\software\Password Manager with Two-Factor Authentication\Password Manager with Two-Factor Authentication3.jpg
+      - static\project_img\software\Password Manager with Two-Factor Authentication\Password Manager with Two-Factor Authentication4.jpg
+
+
+  Network Traffic Analysis and Anomaly Detection:
+    img_path: static\project_img\software\Network Traffic Analysis and Anomaly Detection\Network Traffic Analysis and Anomaly Detection.jfif
+    desc: Network Traffic Analysis and Anomaly Detection Tool
+    tech: Machine Learning, Network Security, Data Analysis
+    domain: Cyber Security
+    tags: majorproject cyberproject aimlproject desktopproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Network%20Traffic%20Analysis%20and%20Anomaly%20Detection
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Network Traffic Analysis and Anomaly Detection tool is designed to enhance network security by continuously monitoring and analyzing network traffic to detect unusual patterns that may indicate suspicious activities. Utilizing machine learning algorithms, this tool can differentiate between normal and anomalous network behavior, providing early warnings of potential security threats.
+
+      <br>
+      Key features include real-time traffic monitoring, detailed analysis of data packets, and identification of anomalies that could signify unauthorized access or malicious activities. The tool employs advanced machine learning models to learn from network behavior and adapt to evolving threats, improving detection accuracy over time.
+      <br>
+      <br>
+      Additionally, it offers comprehensive reporting and alerting functionalities, allowing network administrators to quickly respond to detected anomalies. The tool supports integration with existing security systems and can be customized to fit specific network environments, making it a versatile solution for enhancing network security.
+      <br>
+      <br>
+      Designed with robustness and flexibility in mind, the Network Traffic Analysis and Anomaly Detection tool provides a proactive approach to network security, helping organizations detect and mitigate threats before they can cause significant damage.
+
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Monitors network traffic in real-time.
+      - --> Analyzes data packets for detailed insights.
+      - --> Detects anomalies indicating potential threats.
+      - --> Employs machine learning for adaptive threat detection.
+      - --> Generates comprehensive reports and alerts.
+      - --> Customizable to fit specific network environments.
+      - --> Enhances overall network security.
+
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Traditional network security measures often fail to detect sophisticated threats and anomalies due to their static nature. A dynamic, machine learning-based tool for analyzing network traffic and detecting anomalies is required to proactively identify and mitigate potential security threats.
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Detect suspicious activities by analyzing network traffic and identifying anomalies, using a tool built with machine learning to adapt to evolving threats and enhance network security.
+
+
+    links: 
+      - static\project_img\software\Network Traffic Analysis and Anomaly Detection\Network Traffic Analysis and Anomaly Detection.jfif
+      - static\project_img\software\Network Traffic Analysis and Anomaly Detection\Network Traffic Analysis and Anomaly Detection2.jfif
+      - static\project_img\software\Network Traffic Analysis and Anomaly Detection\Network Traffic Analysis and Anomaly Detection3.jfif
+      - static\project_img\software\Network Traffic Analysis and Anomaly Detection\Network Traffic Analysis and Anomaly Detection4.png
+
+
+  Secure Email Communication Platform:
+    img_path: static\project_img\software\Secure Email Communication Platform\Secure Email Communication Platform.jfif
+    desc: Secure Email Communication Platform with End-to-End Encryption
+    tech: Cryptography, Web Development, Secure Communication
+    domain: Cyber Security
+    tags: majorproject cyberproject webappproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Secure%20Email%20Communication%20Platform
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Secure Email Communication Platform is designed to provide a safe and private method of communication by implementing end-to-end encryption for all emails sent and received through the platform. This ensures that only the intended recipients can read the messages, protecting sensitive information from being accessed by unauthorized parties.
+
+      <br>
+      Key features of the platform include secure email storage with encryption, strong user authentication, and the use of public and private keys to encrypt and decrypt messages. The platform supports various encryption standards to meet diverse security needs and provides an intuitive interface for sending and receiving encrypted emails effortlessly.
+      <br>
+      Additionally, the platform offers features like self-destructing emails, secure attachments, and metadata stripping to ensure complete privacy. It also integrates seamlessly with popular email clients and provides robust spam filtering and malware protection, enhancing overall email security.
+      <br>
+      Designed to prioritize privacy and security, the Secure Email Communication Platform is an essential tool for individuals and organizations looking to protect their email communications from interception and unauthorized access.
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Provides end-to-end encryption for emails.
+      - --> Uses public and private keys for secure communication.
+      - --> Offers strong user authentication mechanisms.
+      - --> Supports secure email storage with encryption.
+      - --> Includes self-destructing emails and secure attachments.
+      - --> Strips metadata to enhance privacy.
+      - --> Includes spam filtering and malware protection.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Conventional email platforms often lack adequate security measures, leaving sensitive communications vulnerable to interception and unauthorized access. A secure email platform with end-to-end encryption is necessary to protect email privacy and ensure confidential communication.
+
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Protect email privacy by building a secure communication platform with end-to-end encryption, ensuring that only intended recipients can access the contents of emails and safeguarding sensitive information from unauthorized access.
+
+    links: 
+      - static\project_img\software\Secure Email Communication Platform\Secure Email Communication Platform.jfif
+      - static\project_img\software\Secure Email Communication Platform\Secure Email Communication Platform2.jfif
+      - static\project_img\software\Secure Email Communication Platform\Secure Email Communication Platform3.jfif
+      - static\project_img\software\Secure Email Communication Platform\Secure Email Communication Platform4.jfif
+
+  Behavioral Biometrics for Continuous Authentication:
+    img_path: static\project_img\software\Behavioral Biometrics for Continuous Authentication\Behavioral Biometrics for Continuous Authentication.jfif
+    desc: Continuous Authentication Using Behavioral Biometrics
+    tech: Machine Learning, Biometrics, Cybersecurity
+    domain: Cyber Security
+    tags: majorproject cyberproject aimlproject desktopproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Behavioral%20Biometrics%20for%20Continuous%20Authentication
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Behavioral Biometrics for Continuous Authentication system is designed to enhance user identity verification by continuously monitoring and analyzing behavioral patterns, such as typing rhythms and mouse movements. This innovative approach ensures that the authenticated user is consistently the one interacting with the device, providing an extra layer of security against unauthorized access.
+
+      <br>
+      Key features of the system include real-time monitoring of user behavior, advanced machine learning algorithms to detect deviations from established patterns, and adaptive learning to accommodate changes in user behavior over time. This continuous authentication mechanism ensures a high level of security without interrupting the user's workflow.
+      <br>
+      <br>
+      Additionally, the system can integrate with existing security infrastructures, allowing for seamless implementation in various environments. It also provides detailed reports and alerts when anomalies are detected, enabling quick response to potential security threats.
+      <br>
+      <br>
+      Designed to work in conjunction with traditional authentication methods, the Behavioral Biometrics for Continuous Authentication system significantly reduces the risk of unauthorized access by continuously verifying user identity based on unique behavioral patterns.
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Continuously monitors user behavior for authentication.
+      - --> Analyzes typing rhythms, mouse movements, and other behavioral patterns.
+      - --> Uses machine learning algorithms for accurate detection.
+      - --> Adapts to changes in user behavior over time.
+      - --> Provides detailed reports and alerts for anomalies.
+      - --> Enhances overall security without disrupting workflow.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Traditional authentication methods rely on one-time verification, which can be bypassed by unauthorized users. A continuous authentication system based on behavioral biometrics is needed to ensure ongoing verification of user identity, reducing the risk of unauthorized access.
+
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Enhance user identity verification by implementing a continuous authentication system that monitors behavioral patterns, ensuring that only the legitimate user is interacting with the device and protecting against unauthorized access.
+
+
+    links: 
+      - static\project_img\software\Behavioral Biometrics for Continuous Authentication\Behavioral Biometrics for Continuous Authentication.jfif
+      - static\project_img\software\Behavioral Biometrics for Continuous Authentication\Behavioral Biometrics for Continuous Authentication2.png
+      - static\project_img\software\Behavioral Biometrics for Continuous Authentication\Behavioral Biometrics for Continuous Authentication3.jfif
+      - static\project_img\software\Behavioral Biometrics for Continuous Authentication\Behavioral Biometrics for Continuous Authentication4.jfif
+
+  
+
+  Cyber Deception System Using Honeytokens:
+    img_path: static\project_img\software\Cyber Deception System Using Honeytokens\Cyber Deception System Using Honeytokens5.jfif
+    desc: Cyber Deception System Using Honeytokens
+    tech: Cyber Deception, Threat Intelligence, Security
+    domain: Cyber Security
+    tags: majorproject cyberproject webappproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Cyber%20Deception%20System%20Using%20Honeytokens
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Cyber Deception System Using Honeytokens is designed to enhance cybersecurity by deploying deceptive assets known as honeytokens to lure and detect attackers. These honeytokens are fake but enticing data or resources that appear valuable to potential intruders. By monitoring interactions with these decoys, the system helps identify malicious activities and gather valuable intelligence on attack methods.
+
+      <br>
+      <br>
+
+      Key features of the system include the deployment of various types of honeytokens across the network, real-time monitoring and analysis of interactions with these decoys, and detailed reporting on detected attacks. The system utilizes advanced analytics to differentiate between legitimate and suspicious activities, providing insights into attacker behavior and methods.
+      <br>
+      <br>
+
+      Additionally, the system can integrate with existing security infrastructure to enhance overall threat detection and response capabilities. It also includes alerting mechanisms to notify security teams of potential breaches and provide actionable intelligence for mitigating threats.
+      <br>
+      <br>
+
+      Designed to proactively detect and divert attackers, the Cyber Deception System Using Honeytokens offers a strategic approach to improving network security and protecting valuable assets from cyber threats.
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Deploys honeytokens to lure and detect attackers.
+      - --> Monitors interactions with honeytokens in real-time.
+      - --> Analyzes activities to identify malicious behavior.
+      - --> Provides detailed reporting and intelligence on attacks.
+      - --> Includes alerting mechanisms for potential breaches.
+      - --> Enhances overall threat detection and response.
+      
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Traditional cybersecurity measures often struggle to detect sophisticated attacks and provide detailed insights into attacker behavior. A deception system using honeytokens is needed to proactively lure and identify attackers, gather intelligence, and enhance overall network security.
+
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Divert attackers and gather intelligence by implementing a cyber deception system that uses honeytokens to detect malicious activities and provide insights into attack methods, enhancing overall network security.
+
+
+    links: 
+      - static\project_img\software\Cyber Deception System Using Honeytokens\Cyber Deception System Using Honeytokens.jfif
+      - static\project_img\software\Cyber Deception System Using Honeytokens\Cyber Deception System Using Honeytokens5.jfif
+      - static\project_img\software\Cyber Deception System Using Honeytokens\Cyber Deception System Using Honeytokens3.png
+      - static\project_img\software\Cyber Deception System Using Honeytokens\Cyber Deception System Using Honeytokens4.jfif
+
+  
+
+  AI-Based Fake News Detection System:
+    img_path: static\project_img\software\AI-Based Fake News Detection System\AI-Based Fake News Detection System.jfif
+    desc: AI-Based System for Detecting and Preventing Fake News
+    tech: Artificial Intelligence, Machine Learning, Natural Language Processing
+    domain: Cyber Security
+    tags: majorproject cyberproject aimlproject webappproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20AI-Based%20Fake%20News%20Detection%20System
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The AI-Based Fake News Detection System is designed to combat the spread of misinformation by using artificial intelligence and machine learning algorithms to identify and prevent fake news online. This system analyzes news articles and social media content to detect deceptive or misleading information, helping to ensure that users receive reliable and accurate information.
+
+      <br>
+
+      Key features of the system include natural language processing (NLP) techniques to analyze text for signs of misinformation, machine learning models trained to differentiate between credible and non-credible sources, and real-time monitoring of news content. The system also provides detailed reports and alerts when fake news is detected, enabling timely intervention to prevent its spread.
+      <br>
+      <br>
+
+      Additionally, the system seamless detects and filter's fake news. It offers user-friendly interfaces for both end-users and administrators, allowing for efficient management and review of detected content.
+      <br>
+      <br>
+
+      Designed to enhance information reliability, the AI-Based Fake News Detection System represents a proactive approach to addressing the growing issue of misinformation in the digital age.
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Utilizes AI and machine learning for fake news detection.
+      - --> Analyzes text using natural language processing techniques.
+      - --> Differentiates between credible and non-credible sources.
+      - --> Provides real-time monitoring of news content.
+      - --> Generates detailed reports and alerts for detected fake news.
+      - --> Includes user-friendly interfaces for management and review.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      The proliferation of fake news online poses significant risks to information reliability and public trust. An AI-based detection system is needed to identify and prevent the spread of misinformation, ensuring users have access to accurate and credible information.
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Enhance information reliability by building an AI-based system that detects and prevents the spread of fake news, ensuring that users receive accurate and trustworthy information online.
+
+
+    links: 
+      - static\project_img\software\AI-Based Fake News Detection System\AI-Based Fake News Detection System.jfif
+      - static\project_img\software\AI-Based Fake News Detection System\AI-Based Fake News Detection System2.jfif
+      - static\project_img\software\AI-Based Fake News Detection System\AI-Based Fake News Detection System3.jfif
+      - static\project_img\software\AI-Based Fake News Detection System\AI-Based Fake News Detection System4.jfif
+
+  
+  
+
+  Cybersecurity Risk Assessment Tool:
+    img_path: static\project_img\software\Cybersecurity Risk Assessment Tool Using Fuzzy Logic\Cybersecurity Risk Assessment Tool Using Fuzzy Logic2.jfif
+    desc: Cybersecurity Risk Assessment Tool Using Fuzzy Logic
+    tech: Fuzzy Logic, Risk Assessment, Cybersecurity
+    domain: Cyber Security
+    tags: majorproject cyberproject aimlproject desktopproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Cybersecurity%20Risk%20Assessment%20Tool%20Using%20Fuzzy%20Logic
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Cybersecurity Risk Assessment Tool Using Fuzzy Logic is designed to evaluate and mitigate cybersecurity risks in IT environments by leveraging fuzzy logic principles. This tool provides a sophisticated approach to risk assessment by handling uncertainty and imprecision inherent in evaluating cybersecurity threats.
+      <br>
+      <br>
+      Key features of the system include the use of fuzzy logic algorithms to model and assess risk factors based on various inputs, such as vulnerability data, threat intelligence, and potential impact. The system generates risk scores and recommendations for mitigation, helping organizations make informed decisions to enhance their cybersecurity posture.
+      <br>
+      <br>
+      The tool provides a comprehensive risk assessment and management solution. It offers user-friendly interfaces for configuring risk parameters, viewing assessment results, and generating reports for stakeholders.
+      <br>
+      <br>
+      Designed to improve the effectiveness of risk management strategies, the Cybersecurity Risk Assessment Tool Using Fuzzy Logic helps organizations address cybersecurity challenges with greater precision and adaptability.
+
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Utilizes fuzzy logic for risk assessment.
+      - --> Models and evaluates risk factors with uncertainty.
+      - --> Generates risk scores and mitigation recommendations.
+      - --> Provides user-friendly interfaces for configuration and reporting.
+      - --> Enhances decision-making for cybersecurity risk management.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Traditional risk assessment methods may struggle with the uncertainty and imprecision involved in evaluating cybersecurity threats. A fuzzy logic-based tool is needed to provide a more accurate and adaptable approach to risk assessment, improving the effectiveness of risk management strategies.
+
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Evaluate and mitigate cybersecurity risks effectively by implementing a fuzzy logic-based tool that provides adaptable and precise risk assessment, helping organizations enhance their cybersecurity strategies and manage threats more effectively.
+
+
+    links: 
+      - static\project_img\software\Cybersecurity Risk Assessment Tool Using Fuzzy Logic\Cybersecurity Risk Assessment Tool Using Fuzzy Logic.png
+      - static\project_img\software\Cybersecurity Risk Assessment Tool Using Fuzzy Logic\Cybersecurity Risk Assessment Tool Using Fuzzy Logic2.jfif
+      - static\project_img\software\Cybersecurity Risk Assessment Tool Using Fuzzy Logic\Cybersecurity Risk Assessment Tool Using Fuzzy Logic3.png
+      - static\project_img\software\Cybersecurity Risk Assessment Tool Using Fuzzy Logic\Cybersecurity Risk Assessment Tool Using Fuzzy Logic4.jfif
+
+  
+
+  Remote Work Security Toolkit:
+    img_path: static\project_img\software\Remote Work Security Toolkit\Remote Work Security Toolkit.jfif
+    desc: Remote Work Security Toolkit
+    tech: Cybersecurity, Remote Work, Multi-Layered Security
+    domain: Cyber Security
+    tags: majorproject cyberproject desktopproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Remote%20Work%20Security%20Toolkit
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+
+      The Remote Work Security Toolkit is designed to provide comprehensive security measures tailored for remote work environments. This toolkit includes multiple layers of security to protect sensitive data, ensure safe communication, and secure access to company resources.
+
+      <br>
+      Key features of the toolkit include secure VPN access, multi-factor authentication (MFA), encrypted communication channels, and advanced threat detection. The toolkit also includes tools for secure file sharing, remote device management, and user activity monitoring. 
+      <br>
+      The solution integrates seamlessly with existing IT infrastructure and can be customized to meet the specific needs of various organizations. It provides user-friendly interfaces for managing security settings, generating reports, and responding to security incidents.
+      <br>
+      Designed to enhance the security of remote workforce operations, the Remote Work Security Toolkit helps organizations mitigate risks associated with remote work and maintain a secure and productive work environment.
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Provides secure VPN access for remote connections.
+      - --> Implements multi-factor authentication (MFA).
+      - --> Ensures encrypted communication channels.
+      - --> Includes tools for secure file sharing.
+      - --> Features remote device management.
+      - --> Supports user activity monitoring.
+      - --> Integrates with existing IT infrastructure.
+      - --> Customizable to meet specific organizational needs.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Remote work environments face increased security risks due to the use of unsecured networks and devices. A comprehensive security toolkit is needed to protect sensitive data, secure communication, and ensure safe access to company resources.
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Secure remote workforce operations by developing a multi-layered security toolkit tailored for remote work environments, including features such as secure VPN access, multi-factor authentication, encrypted communication, and comprehensive remote device management.
+
+
+    links: 
+      - static\project_img\software\Remote Work Security Toolkit\Remote Work Security Toolkit2.jfif
+      - static\project_img\software\Remote Work Security Toolkit\Remote Work Security Toolkit3.png
+      - static\project_img\software\Remote Work Security Toolkit\Remote Work Security Toolkit4.jfif
+      - static\project_img\software\Remote Work Security Toolkit\Remote Work Security Toolkit.jfif
+
+  
+  
+
+  AI-Driven Cybersecurity Threat Hunting Tool:
+    img_path: static\project_img\software\AI-Driven Cybersecurity Threat Hunting Tool\AI-Driven Cybersecurity Threat Hunting Tool.jfif
+    desc: AI-Driven Cybersecurity Threat Hunting Tool
+    tech: Artificial Intelligence, Cybersecurity, Threat Hunting
+    domain: Cyber Security
+    tags: majorproject cyberproject aimlproject desktopproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20AI-Driven%20Cybersecurity%20Threat%20Hunting%20Tool
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+
+      The AI-Driven Cybersecurity Threat Hunting Tool is designed to proactively identify and neutralize cybersecurity threats within network data using advanced artificial intelligence algorithms. This tool leverages AI and machine learning to analyze large volumes of network traffic and detect potential threats before they can cause significant damage.
+      <br>
+      <br>
+      Key features of the tool include real-time threat detection, automated analysis of network anomalies, and predictive threat modeling. The AI algorithms are trained to recognize patterns associated with various types of cyber threats, such as malware, ransomware, and unauthorized access attempts. The tool also provides actionable insights and recommendations for mitigating detected threats.
+      <br>
+      <br>
+      This solution, enhance overall threat detection capabilities. It offers a user-friendly interface for monitoring threats, viewing detailed reports, and responding to security incidents.
+      <br>
+      <br>
+      Designed to improve proactive threat management, the AI-Driven Cybersecurity Threat Hunting Tool helps organizations stay ahead of emerging threats and maintain a robust security posture.
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Utilizes AI and machine learning for threat detection.
+      - --> Analyzes network traffic for real-time threat identification.
+      - --> Provides automated analysis of network anomalies.
+      - --> Implements predictive threat modeling.
+      - --> Offers actionable insights and mitigation recommendations.
+      - --> Features a user-friendly interface for monitoring and reporting.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Traditional threat detection methods may not be sufficient to identify and neutralize emerging cybersecurity threats in real-time. An AI-driven tool is needed to proactively hunt for threats within network data and provide early warnings and mitigation strategies.
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Identify and neutralize cybersecurity threats early by implementing an AI-driven tool that proactively analyzes network data, detects potential threats in real-time, and provides actionable insights for effective threat mitigation.
+
+
+    links: 
+      - static\project_img\software\AI-Driven Cybersecurity Threat Hunting Tool\AI-Driven Cybersecurity Threat Hunting Tool.jfif
+      - static\project_img\software\AI-Driven Cybersecurity Threat Hunting Tool\AI-Driven Cybersecurity Threat Hunting Tool2.jfif
+      - static\project_img\software\AI-Driven Cybersecurity Threat Hunting Tool\AI-Driven Cybersecurity Threat Hunting Tool3.jfif
+      - static\project_img\software\AI-Driven Cybersecurity Threat Hunting Tool\AI-Driven Cybersecurity Threat Hunting Tool4.jfif
+
+  
+
+  webside card template:
+    img_path: static\project_img\software\Secure File Storage System Using Cryptography\Secure File Storage System Using Cryptogra.jpg
+    desc: Encryption-Based, Secure File Storage System
+    tech: Cryptography, Web Development, File Management
+    domain: Cyber Security
+    tags: majorproject cyberproject 
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Secure%20File%20Storage%20System%20Using%20Cryptography
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Secure File Storage System Using Cryptography is a robust solution designed to safeguard sensitive data by employing advanced encryption techniques. This system encrypts files before storing them, ensuring that unauthorized users cannot access the contents without the correct decryption keys. It offers a secure way to store and manage sensitive information, making it ideal for both personal and organizational use.
+
+      <br>
+      Key features include support for various encryption algorithms, user-friendly interfaces for file encryption and decryption, and secure key management systems to prevent unauthorized access. The system also allows for the secure sharing of encrypted files, ensuring that only authorized individuals can view or modify the data.
+      <br>
+      Additionally, the system provides detailed logs of file access and encryption/decryption activities, helping users monitor and manage their data security.
+      <br>
+      Designed with security and ease of use in mind, the Secure File Storage System Using Cryptography ensures that sensitive data remains protected from unauthorized access, providing peace of mind to users.
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Encrypts files before storage to protect sensitive data.
+      - --> Supports multiple encryption algorithms for flexibility.
+      - --> Provides secure key management to prevent unauthorized access.
+      - --> Allows secure sharing of encrypted files.
+      - --> Logs all file access and encryption/decryption activities.
+      - --> Offers a user-friendly interface for encryption and decryption.
+      - --> Enhances data security without compromising usability.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Sensitive data is at risk of unauthorized access and theft when stored in unsecured systems. A cryptography-based secure file storage system is needed to encrypt files, ensuring that only authorized users can access the data and safeguard sensitive information.
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Safeguard sensitive data by creating a secure file storage system that uses cryptographic techniques to encrypt files, ensuring that only authorized users have access to the data and enhancing overall data protection.
+
+
+    links: 
+      - static\project_img\software\Secure File Storage System Using Cryptography\Secure File Storage System Using Cryptography.jpg
+      - static\project_img\software\Secure File Storage System Using Cryptography\Secure File Storage System Using Cryptography2.jpg
+      - static\project_img\software\Secure File Storage System Using Cryptography\Secure File Storage System Using Cryptography3.jpg
+      - static\project_img\software\Secure File Storage System Using Cryptography\Secure File Storage System Using Cryptography4.jpg
+
+
+
+
+
+
+  
+
+
+mechanical:
+  mechVideo Subtitle:
+    img_path : static\project_img\software\video-subtitle.png
+    desc : We can add video + subtitle & then can play it (Video with subtitle)
+    tech : Django
+    domain : Web App
+    tags: majorproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20AgroSense%20Project%20pls%20share%20more%20info
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+  
+  mechPlayTube:
+    img_path : static\project_img\skeleton.jpg
+    desc : Its is a Clone of YouTube.
+    tech : Django, Scraped Youtube Data 
+    domain : Web App
+    tags: majorproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Methi%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+simulation:
+  simulation1:
+    img_path : static\project_img\software\video-subtitle.png
+    desc : We can add video + subtitle & then can play it (Video with subtitle)
+    tech : Django
+    domain : Web App
+    tags: majorproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20AgroSense%20Project%20pls%20share%20more%20info
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+  
+  simulation456:
+    img_path : static\project_img\skeleton.jpg
+    desc : Its is a Clone of YouTube.
+    tech : Django, Scraped Youtube Data 
+    domain : Web App
+    tags: majorproject
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Methi%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+science:
+  science123:
+    img_path : static\project_img\software\video-subtitle.png
+    desc : We can add video + subtitle & then can play it (Video with subtitle)
+    tech : Django
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20AgroSense%20Project%20pls%20share%20more%20info
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+  
+  science456:
+    img_path : static\project_img\skeleton.jpg
+    desc : Its is a Clone of YouTube.
+    tech : Django, Scraped Youtube Data 
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Methi%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+origami:
+  origami123:
+    img_path : static\project_img\software\video-subtitle.png
+    desc : We can add video + subtitle & then can play it (Video with subtitle)
+    tech : Django
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20AgroSense%20Project%20pls%20share%20more%20info
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+  
+  origami456:
+    img_path : static\project_img\skeleton.jpg
+    desc : Its is a Clone of YouTube.
+    tech : Django, Scraped Youtube Data 
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Methi%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+
+  origami786:
+    img_path : static\project_img\skeleton.jpg
+    desc : Its is a Clone of YouTube.
+    tech : Django, Scraped Youtube Data 
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Methi%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+
+
+
+
+
+
+
+
+
+
+
+
+Campaign:
+  ganpatibaapacampaign:
+    title : Ganpati Bappa Short Invite Video
+    thumbnail : static\campaignData\Ganpti_Bappa_invit\ganpati icon.png
+    description: In this campaign we will make 20 to 60 sec YOUR Ganpati Bappa Invite Short Videos, We make it Easy to SHARE and INVITE... 
+    link : ganpatiInvitaion.html
+    freeganpatibaapavideos:
+      Design1 : static\campaignData\Ganpti_Bappa_invit\Festive%20Traditional%20Ganesh%20Chaturthi%20Instagram%20Story.mp4
+      Design2 : static\campaignData\Ganpti_Bappa_invit\Yellow and White Illustrative Ganesh Chaturthi Instagram Story.mp4
+      Design3 : static\campaignData\Ganpti_Bappa_invit\Red Festive Ganesh Chaturthi WhatsApp Status .mp4
+      Design4 : static\campaignData\Ganpti_Bappa_invit\Yellow and White Illustrative Ganesh Chaturthi Instagram Story.mp4
+      Design5 : static\campaignData\Ganpti_Bappa_invit\Red Festive Ganesh Chaturthi WhatsApp Status .mp4
+
+    freeganpatibaapamusic:
+      Music1 : 
+        title : Chinchpokli Cha Chintamani
+        link : https://www.youtube.com/watch?v=ZNuJniR-9oc
+
+      Music2 : 
+        title : Sampurna Jagala Tuzya Rupacha Rang Dila Deva
+        link : https://www.youtube.com/watch?v=wEs5uyp8skY
+
+      Music3 : 
+        title : Bappa Morya Re
+        link : https://www.youtube.com/watch?v=LT1ezi5-mm0&list=PLGNJf4uoXBvWOzAYuUEltXTfl4nV5cXsq
+
+      Music4 : 
+        title : गणपती नॉनस्टॉप डीजे गाणी
+        link : https://www.youtube.com/watch?v=fwRentgNZB8
+
+      Music5 : 
+        title : Ganeshotsav Mixtape 2024
+        link : https://www.youtube.com/watch?v=ldozoFhk6X0
+
+      Music6 : 
+        title : Bappachya Aagmanala Dj
+        link : https://www.youtube.com/watch?v=EZ6xT6ST3XA
+
+      Music7 : 
+        title : Nonstop Ganpati Dj
+        link : https://www.youtube.com/watch?v=oEZuglNjXrs
+
+      Music8 : 
+        title : गणेश संकष्ट चतुर्थी स्पेशल डिजे गाणी
+        link : https://www.youtube.com/watch?v=sDSlGh2spm8
+
+      Music9 : 
+        title : aamchya papani ganpati aala
+        link : https://www.youtube.com/shorts/CYrhk5_UZoA
+
+      Music10 : 
+        title : Ganpati Bappa Morya
+        link : https://www.youtube.com/shorts/SU4guIikq_8
+
+      Music11 : 
+        title : Bappa Morya
+        link : https://www.youtube.com/shorts/r0rOUDkvrbY
+
+      Music12 : 
+        title : Deva Shree Ganesha
+        link : https://www.youtube.com/shorts/052bRN_ZrxU
+
+      Music13 : 
+        title : Sampurna Jagala Tuzya Rupacha Rang Dila Deva
+        link : https://www.youtube.com/watch?v=wEs5uyp8skY
+
+      Music14 : 
+        title : Ganpati Bappa
+        link : https://www.youtube.com/shorts/ZcMWuPXRAD0
+
+      Music15 : 
+        title : Ganpati Bappa Coming Soon
+        link : https://www.youtube.com/shorts/rBHyx9Z1vUY
+
+      Music16 : 
+        title : Ganpati Bappa Morya
+        link : https://www.youtube.com/shorts/lSXK3FkNHl4
+
+      Music17 : 
+        title : Shambhu Sutaya
+        link : https://www.youtube.com/watch?v=DOvG7MC8i7E
+
+      Music18 : 
+        title : Majha Bappa | Deeya Wadkar | Sneha Mahadik | Pravin Koli
+        link : https://www.youtube.com/watch?v=jl9kHKoSijU
+
+      Music19 : 
+        title : Bappa Naadkhula (बाप्पा नादखुळा)
+        link : https://www.youtube.com/watch?v=i3rdP8Aases
+
+      Music20 : 
+        title : Nashik Dhol Feel The Bass ( Full Taasha Mix)
+        link : https://www.youtube.com/watch?v=Tv3knbp6ftw
+
+      Music21 : 
+        title : DHOL TAASHA
+        link : https://www.youtube.com/watch?v=DtYQ3oSubuw&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH
+
+      Music22 : 
+        title : Tiger Dhun Dhol Tasha
+        link : https://www.youtube.com/watch?v=bKms_p5jjvo&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH&index=2
+
+      Music23 : 
+        title : Dongri Ke Sultan Dhol Tasha
+        link : https://www.youtube.com/watch?v=CgS8i5FK1Ow&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH&index=3
+
+      Music24 : 
+        title : DHOL TAASHA (FULL BASS MIX)
+        link : https://www.youtube.com/watch?v=rDkoOzt3GQQ&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH&index=4
+
+      Music25 : 
+        title : DHOL TAASHA (HIGH BASS)
+        link : https://www.youtube.com/watch?v=9y_I4tHDCPk&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH&index=5
+
+      Music26 : 
+        title : DHOL TAASHA (HIGH BASS 2)
+        link : https://www.youtube.com/watch?v=fWSseW07S8E&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH&index=6
+
+
+  ganpatibaapacampaign2:
+    title : Ganpati Bappa Short Invite Video
+    thumbnail : static\campaignData\Ganpti_Bappa_invit\ganpati icon.png
+    description: In this campaign we will make 20 to 60 sec YOUR Ganpati Bappa Invite Short Videos, We make it Easy to SHARE and INVITE... 
+    link : ganpatiInvitaion.html
+    freeganpatibaapavideos:
+      Design1 : static\campaignData\Ganpti_Bappa_invit\Festive%20Traditional%20Ganesh%20Chaturthi%20Instagram%20Story.mp4
+      Design2 : static\campaignData\Ganpti_Bappa_invit\Yellow and White Illustrative Ganesh Chaturthi Instagram Story.mp4
+      Design3 : static\campaignData\Ganpti_Bappa_invit\Red Festive Ganesh Chaturthi WhatsApp Status .mp4
+      Design4 : static\campaignData\Ganpti_Bappa_invit\Yellow and White Illustrative Ganesh Chaturthi Instagram Story.mp4
+      Design5 : static\campaignData\Ganpti_Bappa_invit\Red Festive Ganesh Chaturthi WhatsApp Status .mp4
+
+    freeganpatibaapamusic:
+      Music1 : 
+        title : Chinchpokli Cha Chintamani
+        link : https://www.youtube.com/watch?v=ZNuJniR-9oc
+
+      Music2 : 
+        title : Sampurna Jagala Tuzya Rupacha Rang Dila Deva
+        link : https://www.youtube.com/watch?v=wEs5uyp8skY
+
+      Music3 : 
+        title : Bappa Morya Re
+        link : https://www.youtube.com/watch?v=LT1ezi5-mm0&list=PLGNJf4uoXBvWOzAYuUEltXTfl4nV5cXsq
+
+      Music4 : 
+        title : गणपती नॉनस्टॉप डीजे गाणी
+        link : https://www.youtube.com/watch?v=fwRentgNZB8
+
+      Music5 : 
+        title : Ganeshotsav Mixtape 2024
+        link : https://www.youtube.com/watch?v=ldozoFhk6X0
+
+      Music6 : 
+        title : Bappachya Aagmanala Dj
+        link : https://www.youtube.com/watch?v=EZ6xT6ST3XA
+
+      Music7 : 
+        title : Nonstop Ganpati Dj
+        link : https://www.youtube.com/watch?v=oEZuglNjXrs
+
+      Music8 : 
+        title : गणेश संकष्ट चतुर्थी स्पेशल डिजे गाणी
+        link : https://www.youtube.com/watch?v=sDSlGh2spm8
+
+      Music9 : 
+        title : aamchya papani ganpati aala
+        link : https://www.youtube.com/shorts/CYrhk5_UZoA
+
+      Music10 : 
+        title : Ganpati Bappa Morya
+        link : https://www.youtube.com/shorts/SU4guIikq_8
+
+      Music11 : 
+        title : Bappa Morya
+        link : https://www.youtube.com/shorts/r0rOUDkvrbY
+
+      Music12 : 
+        title : Deva Shree Ganesha
+        link : https://www.youtube.com/shorts/052bRN_ZrxU
+
+      Music13 : 
+        title : Sampurna Jagala Tuzya Rupacha Rang Dila Deva
+        link : https://www.youtube.com/watch?v=wEs5uyp8skY
+
+      Music14 : 
+        title : Ganpati Bappa
+        link : https://www.youtube.com/shorts/ZcMWuPXRAD0
+
+      Music15 : 
+        title : Ganpati Bappa Coming Soon
+        link : https://www.youtube.com/shorts/rBHyx9Z1vUY
+
+      Music16 : 
+        title : Ganpati Bappa Morya
+        link : https://www.youtube.com/shorts/lSXK3FkNHl4
+
+      Music17 : 
+        title : Shambhu Sutaya
+        link : https://www.youtube.com/watch?v=DOvG7MC8i7E
+
+      Music18 : 
+        title : Majha Bappa | Deeya Wadkar | Sneha Mahadik | Pravin Koli
+        link : https://www.youtube.com/watch?v=jl9kHKoSijU
+
+      Music19 : 
+        title : Bappa Naadkhula (बाप्पा नादखुळा)
+        link : https://www.youtube.com/watch?v=i3rdP8Aases
+
+      Music20 : 
+        title : Nashik Dhol Feel The Bass ( Full Taasha Mix)
+        link : https://www.youtube.com/watch?v=Tv3knbp6ftw
+
+      Music21 : 
+        title : DHOL TAASHA
+        link : https://www.youtube.com/watch?v=DtYQ3oSubuw&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH
+
+      Music22 : 
+        title : Tiger Dhun Dhol Tasha
+        link : https://www.youtube.com/watch?v=bKms_p5jjvo&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH&index=2
+
+      Music23 : 
+        title : Dongri Ke Sultan Dhol Tasha
+        link : https://www.youtube.com/watch?v=CgS8i5FK1Ow&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH&index=3
+
+      Music24 : 
+        title : DHOL TAASHA (FULL BASS MIX)
+        link : https://www.youtube.com/watch?v=rDkoOzt3GQQ&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH&index=4
+
+      Music25 : 
+        title : DHOL TAASHA (HIGH BASS)
+        link : https://www.youtube.com/watch?v=9y_I4tHDCPk&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH&index=5
+
+      Music26 : 
+        title : DHOL TAASHA (HIGH BASS 2)
+        link : https://www.youtube.com/watch?v=fWSseW07S8E&list=PLeI4eR3a6IjU8b7j7qYjJ4SGnbJvt9ukH&index=6
+
+
+
+
+
+YoutubeProjects:
+
+  Youtube Project 1:
+    img_path: static\project_img\software\Cybersecurity Risk Assessment Tool Using Fuzzy Logic\Cybersecurity Risk Assessment Tool Using Fuzzy Logic2.jfif
+    desc: Cybersecurity Risk Assessment Tool Using Fuzzy Logic
+    tech: Fuzzy Logic, Risk Assessment, Cybersecurity
+    domain: Cyber Security
+    tags: majorproject cyberproject aimlproject desktopproject
+    youtubelink : https://www.youtube.com/
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Cybersecurity%20Risk%20Assessment%20Tool%20Using%20Fuzzy%20Logic
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Cybersecurity Risk Assessment Tool Using Fuzzy Logic is designed to evaluate and mitigate cybersecurity risks in IT environments by leveraging fuzzy logic principles. This tool provides a sophisticated approach to risk assessment by handling uncertainty and imprecision inherent in evaluating cybersecurity threats.
+      <br>
+      <br>
+      Key features of the system include the use of fuzzy logic algorithms to model and assess risk factors based on various inputs, such as vulnerability data, threat intelligence, and potential impact. The system generates risk scores and recommendations for mitigation, helping organizations make informed decisions to enhance their cybersecurity posture.
+      <br>
+      <br>
+      The tool provides a comprehensive risk assessment and management solution. It offers user-friendly interfaces for configuring risk parameters, viewing assessment results, and generating reports for stakeholders.
+      <br>
+      <br>
+      Designed to improve the effectiveness of risk management strategies, the Cybersecurity Risk Assessment Tool Using Fuzzy Logic helps organizations address cybersecurity challenges with greater precision and adaptability.
+
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Utilizes fuzzy logic for risk assessment.
+      - --> Models and evaluates risk factors with uncertainty.
+      - --> Generates risk scores and mitigation recommendations.
+      - --> Provides user-friendly interfaces for configuration and reporting.
+      - --> Enhances decision-making for cybersecurity risk management.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Traditional risk assessment methods may struggle with the uncertainty and imprecision involved in evaluating cybersecurity threats. A fuzzy logic-based tool is needed to provide a more accurate and adaptable approach to risk assessment, improving the effectiveness of risk management strategies.
+
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Evaluate and mitigate cybersecurity risks effectively by implementing a fuzzy logic-based tool that provides adaptable and precise risk assessment, helping organizations enhance their cybersecurity strategies and manage threats more effectively.
+
+
+    links: 
+      - static\project_img\software\Cybersecurity Risk Assessment Tool Using Fuzzy Logic\Cybersecurity Risk Assessment Tool Using Fuzzy Logic.png
+      - static\project_img\software\Cybersecurity Risk Assessment Tool Using Fuzzy Logic\Cybersecurity Risk Assessment Tool Using Fuzzy Logic2.jfif
+
+
+YoutubeComponentdetails:
+
+  Youtube componenet 1:
+    img_path: static\project_img\software\Cybersecurity Risk Assessment Tool Using Fuzzy Logic\Cybersecurity Risk Assessment Tool Using Fuzzy Logic2.jfif
+    desc: Cybersecurity Risk Assessment Tool Using Fuzzy Logic
+    tech: Fuzzy Logic, Risk Assessment, Cybersecurity
+    domain: Cyber Security
+    tags: majorproject cyberproject aimlproject desktopproject
+    youtubelink : https://www.youtube.com/
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Cybersecurity%20Risk%20Assessment%20Tool%20Using%20Fuzzy%20Logic
+
+    markdowndetails: |
+      # Project Description:
+      ======================<br><br>
+
+      The Cybersecurity Risk Assessment Tool Using Fuzzy Logic is designed to evaluate and mitigate cybersecurity risks in IT environments by leveraging fuzzy logic principles. This tool provides a sophisticated approach to risk assessment by handling uncertainty and imprecision inherent in evaluating cybersecurity threats.
+      <br>
+      <br>
+      Key features of the system include the use of fuzzy logic algorithms to model and assess risk factors based on various inputs, such as vulnerability data, threat intelligence, and potential impact. The system generates risk scores and recommendations for mitigation, helping organizations make informed decisions to enhance their cybersecurity posture.
+      <br>
+      <br>
+      The tool provides a comprehensive risk assessment and management solution. It offers user-friendly interfaces for configuring risk parameters, viewing assessment results, and generating reports for stakeholders.
+      <br>
+      <br>
+      Designed to improve the effectiveness of risk management strategies, the Cybersecurity Risk Assessment Tool Using Fuzzy Logic helps organizations address cybersecurity challenges with greater precision and adaptability.
+
+
+
+      <br>
+      <br>
+
+      # Project Features:
+      ======================<br><br>
+
+      - --> Utilizes fuzzy logic for risk assessment.
+      - --> Models and evaluates risk factors with uncertainty.
+      - --> Generates risk scores and mitigation recommendations.
+      - --> Provides user-friendly interfaces for configuration and reporting.
+      - --> Enhances decision-making for cybersecurity risk management.
+
+      <br>
+      <br>
+
+      # Problem Statement:
+      =====================<br>
+      Traditional risk assessment methods may struggle with the uncertainty and imprecision involved in evaluating cybersecurity threats. A fuzzy logic-based tool is needed to provide a more accurate and adaptable approach to risk assessment, improving the effectiveness of risk management strategies.
+
+
+
+      <br>
+      <br>
+
+      ## Report Contents:
+      =============<br>
+      - --> Block Diagram
+      - --> Flow Chart
+      - --> System Architecture
+      - --> Problem Statement
+      - --> Abstract
+      - --> Introduction
+      - --> Methodology
+      - --> Challenges and Solutions
+      - --> Performance Analysis
+      - --> Advantages
+      - --> Limitations
+      - --> Applications
+      - --> Future Scope
+      - --> Conclusion
+      - --> Output Images
+
+      <br>
+      <br>
+
+      ## Project Deliverables:
+      ===============<br>
+      - --> Project Software
+      - --> Project Report
+      - --> Project Simulation
+
+      <br>
+      <br>
+
+      ## Project Use Case:
+      ===================<br>
+      Evaluate and mitigate cybersecurity risks effectively by implementing a fuzzy logic-based tool that provides adaptable and precise risk assessment, helping organizations enhance their cybersecurity strategies and manage threats more effectively.
+
+
+    links: 
+      - static\project_img\software\Cybersecurity Risk Assessment Tool Using Fuzzy Logic\Cybersecurity Risk Assessment Tool Using Fuzzy Logic.png
+      - static\project_img\software\Cybersecurity Risk Assessment Tool Using Fuzzy Logic\Cybersecurity Risk Assessment Tool Using Fuzzy Logic2.jfif
+
+
