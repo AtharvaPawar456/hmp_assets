@@ -105,11 +105,11 @@ folderList = [
     
 ]
 
-basefolder = "software"
-for folder in folderList:
-    folder = f"{basefolder}/{folder}"
-    print(folder)
-    renameAllFiles(folder)
+# basefolder = "software"
+# for folder in folderList:
+#     folder = f"{basefolder}/{folder}"
+#     print(folder)
+#     renameAllFiles(folder)
 
 
 
