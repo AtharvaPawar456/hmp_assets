@@ -40,49 +40,47 @@ folderList = [
     
 
 
-'shop-1-mauli'
+# 'shop-1-mauli'
+'shop-1-mauli/videos'
     
     
 ]
 
-basefolder = "software"
-for folder in folderList:
-    # folder = f"{basefolder}/{folder}"
-    print(folder)
-    renameAllFiles(folder)
+# basefolder = "software"
+# for folder in folderList:
+#     # folder = f"{basefolder}/{folder}"
+#     print(folder)
+#     renameAllFiles(folder)
 
 
 
 
-# basePath = "https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/project_data/"
-# folderPath = "hardware/_43_Smart_Waste_Segregation_Bin"
-# files = os.listdir(folderPath)
+basePath = "https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/videos"
+folderPath = "shop-1-mauli/videos"
+files = os.listdir(folderPath)
 
-# for fileName in files:
-#     # print(f"'{tempPath}{fileName}',")
-#     print(f"{basePath}{folderPath}/{fileName};")
+for fileName in files:
+    print(f"{basePath}{fileName};")
+    # print(f"{basePath}{folderPath}/{fileName};")
 
 
 
 """
-https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/project_data/hardware/_10_SALTO_The_Jumping_Robot/file_1.png
-
-https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/project_data/hardware/_11_MIT_Transform_Smart_Desk/file_2.jpg
 
 
 
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/file_5.jpeg;
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/file_11.jpeg;
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/file_4.jpeg;
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/file_1.jpeg;
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/file_10.png;
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/file_12.png;
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/file_3.jpeg;
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/file_6.png;
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/file_7.png;
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/file_8.jpeg;
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/shops-section/shop-1-mauli/file_9.jpeg;
 
-\
-    
-    
-file_1.mp4
-file_2.png
-file_3.mp4
-file_4.png
-file_5.png
-file_6.png
-file_7.jpeg
-file_8.mp4
 
 
 """
