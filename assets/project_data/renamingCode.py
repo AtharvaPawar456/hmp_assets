@@ -114,15 +114,35 @@ folderList = [
 
 
 
-# files = os.listdir("dxn-soap/shorts")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-soap/shorts/"
+basePath = "https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/project_data/"
+folderPath = "hardware/_43_Smart_Waste_Segregation_Bin"
+files = os.listdir(folderPath)
 
-# for fileName in files:
-#     print(f"'{tempPath}{fileName}',")
+for fileName in files:
+    # print(f"'{tempPath}{fileName}',")
+    print(f"{basePath}{folderPath}/{fileName};")
 
 
 
 """
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/project_data/hardware/_10_SALTO_The_Jumping_Robot/file_1.png
+
+https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/project_data/hardware/_11_MIT_Transform_Smart_Desk/file_2.jpg
+
+
+
+
+\
+    
+    
+file_1.mp4
+file_2.png
+file_3.mp4
+file_4.png
+file_5.png
+file_6.png
+file_7.jpeg
+file_8.mp4
 
 
 """
