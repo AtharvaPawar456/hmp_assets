@@ -111,11 +111,12 @@ folderList = [
 #     print(folder)
 #     renameAllFiles(folder)
 
+# renameAllFiles(r"C:\Users\Atharva Pawar\Documents\GitHub\hmp_assets\assets\project_data\Craft\pop-models")
 
 
 
 basePath = "https://raw.githubusercontent.com/AtharvaPawar456/hmp_assets/refs/heads/main/assets/project_data/"
-folderPath = "hardware/_43_Smart_Waste_Segregation_Bin"
+folderPath = "Craft/pop-models"
 files = os.listdir(folderPath)
 
 for fileName in files:
